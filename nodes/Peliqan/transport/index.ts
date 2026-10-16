@@ -24,7 +24,7 @@ export async  function peliqanApiRequest(
         method,
         body,
         qs: query,
-        url: `https://app.eu.peliqan.io/${endpoint}`,
+        url: url || `https://app.eu.peliqan.io/${endpoint}`,
         json: true,
     };
     if (Object.keys(option).length !== 0) {

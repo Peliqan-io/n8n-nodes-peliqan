@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-peliqan",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "n8n community node to work with Peliqan",
   "keywords": [
     "n8n-community-node-package"
@@ -20,6 +20,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "test": "npm run build && node --test tests/*.test.cjs",
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
