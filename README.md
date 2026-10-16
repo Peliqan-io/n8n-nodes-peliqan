@@ -61,3 +61,4 @@ The node currently supports:
 - **June 2025** – `v0.0.4` enable tool usage of node  
 - **September 2025** – `v0.0.5` UX fixes and code overhaul
 - **October 2025** – `v0.0.6` replace deprecated functions
+- **October 2026** – `v0.0.7` fix Endpoint Execute using the app URL instead of the API URL

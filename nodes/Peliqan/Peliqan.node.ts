@@ -1,4 +1,5 @@
 import {
+  NodeConnectionType,
   INodeType,
   INodeTypeDescription,
   IExecuteFunctions
@@ -26,8 +27,8 @@ export class Peliqan implements INodeType {
       name: 'Peliqan',
     },
     usableAsTool: true, 
-    inputs: ['main'],
-    outputs: ['main'],
+    inputs: [NodeConnectionType.Main],
+    outputs: [NodeConnectionType.Main],
     credentials: [
       {
         name: 'peliqanApi',
